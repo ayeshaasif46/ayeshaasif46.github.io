@@ -1,51 +1,48 @@
 <!DOCTYPE html>
-
-<html lang=@en@>
-
+<html lang="en">
 <head>
-
-    <meta charset=@UTF-8@>
-
-    <meta name=@viewport@ content=@width=device-width, initial-scale=1.0@>
-
-    <title>Ayesha Asif - CV / Portfolio</title>
-
-    <link rel=@stylesheet@ href=@styles.css@>
-
+    <meta charset="UTF-8">
+    <title>Ayesha Asif - Professional CV</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #eaedf1; margin: 0; padding: 30px; }
+        .cv { max-width: 750px; background: #fff; margin: auto; padding: 40px; border-top: 8px solid #1a365d; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { margin: 0; color: #1a365d; font-size: 2em; text-transform: uppercase; }
+        .sub { color: #4a5568; font-weight: bold; margin: 5px 0 15px; }
+        .contact { font-size: 0.9em; color: #718096; border-bottom: 2px solid #e2e8f0; padding-bottom: 15px; margin-bottom: 20px; }
+        h2 { color: #1a365d; font-size: 1.1em; border-bottom: 1px solid #cbd5e0; padding-bottom: 4px; text-transform: uppercase; margin-top: 20px; }
+        p, li { color: #4a5568; font-size: 0.95em; line-height: 1.6; }
+        ul { padding-left: 20px; }
+        .row { display: flex; justify-content: space-between; margin-bottom: 8px; }
+        .date { font-weight: bold; color: #1a365d; width: 140px; }
+    </style>
 </head>
-
 <body>
+    <div class="cv">
+        <h1>Ayesha Asif</h1>
+        <div class="sub">Software Engineering Student</div>
+        <div class="contact">Reg No: FA24B1-SE-46 | Fatima Jinnah Women University (FJWU)</div>
 
-    <div class=@cv-container@>
+        <h2>Objective</h2>
+        <p>Motivated Software Engineering student with experience in cloud computing, version control (Git/GitHub/Gitea), Git LFS, and web technologies.</p>
 
-        <header class=@cv-header@>
+        <h2>Education</h2>
+        <div class="row">
+            <span class="date">2024 - Present</span>
+            <span><strong>BS Software Engineering</strong> — FJWU, Rawalpindi</span>
+        </div>
 
-            <h1>Ayesha Asif</h1>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Tools & Cloud:</strong> Git, GitHub, Git LFS, Gitea, Linux CLI</li>
+            <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript, GitHub Pages</li>
+            <li><strong>Languages:</strong> Python, C++</li>
+        </ul>
 
-            <p class=@title@>Software Engineering Student</p>
-
-            <div class=@contact-info@>
-
-                <span>Reg No: FA24B1-SE-46</span> ~ 
-
-                <span>University: FJWU, Rawalpindi</span> ~ 
-
-                <span>Email: ayeshaasif46"student.fjwu.edu.pk</span>
-
-            </div>
-
-        </header>
-
-
-
-        <section class=@cv-section@>
-
-            <h2>About Me</h2>
-
-            <p>Dedicated and motivated Software Engineering student at Fatima Jinnah Women University with a strong interest in web development, cloud computing, version control systems (Git, Gitea, GitHub), and software automation.</p>
-
-        </section>
-
-
-
-   
+        <h2>Projects</h2>
+        <div class="row">
+            <span class="date">September 2026</span>
+            <span><strong>Assignment 01:</strong> Cloud Computing & Git Management</span>
+        </div>
+    </div>
+</body>
+</html>
